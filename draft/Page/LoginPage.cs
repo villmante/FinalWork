@@ -44,8 +44,8 @@ namespace FinalWork.Page
             WebDriverWait wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(5));
             wait.Until(ExpectedConditions.ElementToBeClickable(_help));
             _login.Click();
-            _email.SendKeys("vxx94568@gmail.com");
-            _password.SendKeys("Kursai123");
+            _email.SendKeys("XXXXX@gmail.com");
+            _password.SendKeys("XXXXX");
             _loginButton.Click();
         }
 
